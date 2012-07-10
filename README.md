@@ -8,6 +8,9 @@ What can you delete? Which articles need some love? Find out by running the Twik
 ## What it does
 Currently, any first revisions untouched since 2011 will be highlighted in yellow; entries without an author will be highlighted gray.
 
+## How it works
+The TwikiChecker will find all Twiki entries (identified as having the class patternSearchResult), then iterate over the list. In this loop we build a Twiki entry object that holds a pointer to the DOM, the author, date when the entry was last changed, article description, revision number, and article title. We can then check various properties (such as freshness) on the object and style the Twiki entry as desired.
+
 ## Debugging
 To debug, this code can be run by pasting it into a JavaScript console attached to a Twiki's WebIndex page. 
 
