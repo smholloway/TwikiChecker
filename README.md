@@ -24,3 +24,12 @@ This could also be packaged as a userscript. In Chrome, create TwikiChecker.user
 
 ### Contributors
 Seth Holloway, Otto Ottinger, Nick Dollarhide, Derek Geeting
+
+## Ideas
+* Package as a userscript in Chrome and Firefox
+* Package as a bookmarklet
+* Extend functionality to work on search page (the search page can be full of cruft too)
+* Add user inputs to allow people to adjust the settings and quickly see the results; for example, find all posts before 2012 and paint them #3f8d9a
+* Improve the algorithm for determining freshness
+* Improve the algorithm for determining if a post is orphaned; for example, was it written by a known, current employee
+* Add additional routines for filtering
