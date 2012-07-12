@@ -26,6 +26,9 @@ This could also be packaged as a userscript. In Chrome, create TwikiChecker.user
 Seth Holloway, Otto Ottinger, Nick Dollarhide, Derek Geeting
 
 ## Ideas
+* Package in a namespace
+* Clean up code
+* Improve speed
 * Package as a userscript in Chrome and Firefox
 * Package as a bookmarklet
 * Extend functionality to work on search page (the search page can be full of cruft too)
