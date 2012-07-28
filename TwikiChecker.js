@@ -3,7 +3,7 @@ function markEntries() {
   for (var i = 0, len = twikiEntries.length; i < len; i++) {
     twikiEntry = makeTwikiEntryObject(twikiEntries[i]);
     if ( isStale(twikiEntry) ) markStale(twikiEntry);
-      if ( isOrphaned(twikiEntry) ) markOrphaned(twikiEntry);
+      if ( isUnknownAuthor(twikiEntry) ) markUnknownAuthor(twikiEntry);
   }
 }
  
@@ -52,7 +52,7 @@ function isStale(entry) {
   return (entry.date < "2011" && entry.revision < "r1");
 }
  
-function isOrphaned(entry) {
+function isUnknownAuthor(entry) {
   return (entry.author == "UnknownUser" || entry.author == "TWikiContributor");
 }
  
@@ -60,7 +60,7 @@ function markStale(entry) {
   entry.dom.style.background = "yellow";
 }
  
-function markOrphaned(entry) {
+function markUnknownAuthor(entry) {
   entry.dom.style.background = "grey";
 }
  
