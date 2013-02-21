@@ -1,5 +1,11 @@
-TwikiChecker
-============
+# Note
+
+This repo has moved to [Blackbaud](https://github.com/blackbaud/). Please develop against the [Blackbaud TwikiChecker repo](https://github.com/blackbaud/TwikiChecker).
+
+------------------------------------------------------------------
+
+
+# TwikiChecker
 
 Bookmarklet to check the entries in a Twiki.
 
